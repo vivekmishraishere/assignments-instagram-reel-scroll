@@ -22,7 +22,7 @@ main{
 
 section{
     height: 100%;
-    width: 500px; 
+    width: auto; 
     background-color: white;
     border-radius: 14px;
 }
@@ -49,7 +49,7 @@ scroll-snap-align: end;
 scroll-snap-stop: always;
 }
 
-.main-image{
+.reel video{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -124,7 +124,7 @@ h3{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 1px;
 
 }
 
@@ -132,6 +132,7 @@ h3{
     color: white;
     font-size: 30px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.223) ;
+    pointer-events: none;
     
 }
 
@@ -141,4 +142,17 @@ h3{
     margin-top: -5px;
     font-weight: bolder;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.573) ;
+    pointer-events: none;
+    
+}
+
+.ri-heart-fill{
+    color: rgb(230, 1, 1);
+}
+
+.right div{
+    height: 60px;
+    width: 40px;
+    cursor: pointer;
+    
 }
